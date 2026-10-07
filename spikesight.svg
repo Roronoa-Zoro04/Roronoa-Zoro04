@@ -1,23 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="175" viewBox="0 0 480 175" role="img" aria-labelledby="title desc">
-  <title id="title">SpikeSight AI</title>
-  <desc id="desc">VALORANT prediction and analytics project card with an animated radar sweep. Public upload coming soon.</desc>
-  <defs><linearGradient id="bg"><stop stop-color="#0c1820"/><stop offset="1" stop-color="#102b34"/></linearGradient></defs>
-  <rect x=".5" y=".5" width="479" height="174" rx="12" fill="url(#bg)" stroke="#245c66"/>
-  <g font-family="Segoe UI,Arial,sans-serif">
-    <text x="24" y="30" fill="#6ee7ed" font-size="10" font-weight="700" letter-spacing="2">MACHINE LEARNING / ESPORTS</text>
-    <text x="22" y="80" fill="#e4faff" font-size="36" font-weight="800">SpikeSight AI</text>
-    <text x="24" y="108" fill="#a4c4cd" font-size="15">VALORANT match intelligence.</text>
-    <rect x="24" y="130" width="205" height="24" rx="12" fill="#11333e" stroke="#245c66"/>
-    <circle cx="37" cy="142" r="3" fill="#22d3ee"><animate attributeName="opacity" values="1;.35;1" dur="3s" repeatCount="indefinite"/></circle>
-    <text x="48" y="145.5" fill="#88e9f2" font-size="9.3" font-weight="700" letter-spacing=".7">PUBLIC UPLOAD COMING SOON</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="185" viewBox="0 0 480 185" role="img" aria-labelledby="title desc">
+  <title id="title">SpikeSight AI — VALORANT analytics</title>
+  <desc id="desc">A tactical analytics card with a faceted prediction core, moving data signals, an orbiting cyan light, and a pulsing holographic platform. Public upload coming soon.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#09131e"/><stop offset="1" stop-color="#102936"/></linearGradient>
+    <radialGradient id="ambient"><stop stop-color="#23d8ef" stop-opacity=".16"/><stop offset="1" stop-color="#23d8ef" stop-opacity="0"/></radialGradient>
+    <linearGradient id="left-face" x2="1" y2="1"><stop stop-color="#3c91aa"/><stop offset="1" stop-color="#16374c"/></linearGradient>
+    <linearGradient id="right-face" x2="1" y2="1"><stop stop-color="#163043"/><stop offset="1" stop-color="#276f82"/></linearGradient>
+    <linearGradient id="power-core" x2="0" y2="1"><stop stop-color="#dcffff"/><stop offset=".5" stop-color="#5dedf3"/><stop offset="1" stop-color="#1fa1d2"/></linearGradient>
+    <linearGradient id="map-fill" x2="1" y2="1"><stop stop-color="#122b3c" stop-opacity=".75"/><stop offset="1" stop-color="#193044" stop-opacity=".2"/></linearGradient>
+    <filter id="soft-glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="2.1"/></filter>
+    <clipPath id="frame"><rect width="480" height="185" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="480" height="185" fill="url(#bg)"/>
+    <circle cx="398" cy="92" r="104" fill="url(#ambient)"><animate attributeName="opacity" values=".7;1;.7" dur="5s" repeatCount="indefinite"/></circle>
+    <path d="M346 33H441L458 50V138L441 156H346L330 139V50Z" fill="url(#map-fill)" stroke="#366078" stroke-opacity=".55"/>
+    <g stroke="#59cee2" stroke-width=".6" opacity=".12"><path d="M350 40V150M372 40V150M394 40V150M416 40V150M438 40V150M337 61H451M337 83H451M337 105H451M337 127H451"/></g>
+    <path d="M347 32H366M330 50V68M440 32H450L459 42V56M440 157H450L459 148V135M329 132V144L342 157H354" fill="none" stroke="#73e6f3" stroke-width="1.3" opacity=".6"/>
+    <g font-family="Segoe UI,Arial,sans-serif">
+      <text x="24" y="30" fill="#70e8f1" font-size="9.4" font-weight="700" letter-spacing="1.65">MACHINE LEARNING / ESPORTS</text>
+      <text x="22" y="82" fill="#effbff" font-size="36" font-weight="800">SpikeSight AI</text>
+      <text x="24" y="109" fill="#b6d5df" font-size="14">VALORANT match intelligence.</text>
+      <rect x="24" y="137" width="211" height="25" rx="12.5" fill="#11313e" stroke="#338094" stroke-opacity=".8"/>
+      <circle cx="37" cy="149.5" r="3" fill="#72eef5"><animate attributeName="opacity" values="1;.4;1" dur="3s" repeatCount="indefinite"/></circle>
+      <text x="48" y="153" fill="#a0f3f7" font-size="9" font-weight="700" letter-spacing=".75">PUBLIC UPLOAD COMING SOON</text>
+    </g>
+    <path d="M337 127L354 112L364 124L386 116M420 80L438 65L449 73" fill="none" stroke="#3ecfe2" stroke-width="1.1" stroke-opacity=".25"/>
+    <path d="M337 127L354 112L364 124L386 116M420 80L438 65L449 73" fill="none" stroke="#89f7ff" stroke-width="1.5" stroke-dasharray="10 38" stroke-linecap="round"><animate attributeName="stroke-dashoffset" from="96" to="0" dur="3s" repeatCount="indefinite"/></path>
+    <g fill="#84edf7"><circle cx="337" cy="127" r="2"/><circle cx="449" cy="73" r="2"/></g>
+    <ellipse cx="397" cy="144" rx="42" ry="9" fill="#020c16" opacity=".55"/>
+    <ellipse cx="397" cy="142" rx="47" ry="13" fill="#145168" fill-opacity=".25" stroke="#29b0ce" stroke-opacity=".45"/>
+    <ellipse cx="397" cy="142" rx="32" ry="8" fill="none" stroke="#6eecf3" stroke-opacity=".6"/>
+    <ellipse cx="397" cy="142" rx="30" ry="7" fill="none" stroke="#51dce9"><animate attributeName="rx" values="29;54" dur="2.8s" repeatCount="indefinite"/><animate attributeName="ry" values="7;15" dur="2.8s" repeatCount="indefinite"/><animate attributeName="opacity" values=".6;0" dur="2.8s" repeatCount="indefinite"/></ellipse>
+    <ellipse cx="397" cy="94" rx="60" ry="33" fill="none" stroke="#42c0da" stroke-dasharray="2 7" stroke-opacity=".3" transform="rotate(-24 397 94)"/>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 2;0 -3;0 2" dur="4.5s" repeatCount="indefinite"/>
+      <path d="M397 51L424 68L419 115L397 133L375 115L370 68Z" fill="#3ae1ec" opacity=".15" filter="url(#soft-glow)"/>
+      <path d="M397 51L370 68L375 115L397 133Z" fill="url(#left-face)" stroke="#69d4e1" stroke-width="1"/>
+      <path d="M397 51L424 68L419 115L397 133Z" fill="url(#right-face)" stroke="#3b9faf" stroke-width="1"/>
+      <path d="M397 51L370 68L397 85L424 68Z" fill="#28627b" stroke="#76dbe7" stroke-width="1"/>
+      <path d="M397 85V133M370 68L397 85L424 68" fill="none" stroke="#97ecf2" stroke-opacity=".5"/>
+      <path d="M391 88L397 92L403 88L401 117L397 122L393 117Z" fill="url(#power-core)"/>
+      <path d="M391 88L397 92L403 88L401 117L397 122L393 117Z" fill="#61f1ef" opacity=".6" filter="url(#soft-glow)"><animate attributeName="opacity" values=".25;.8;.25" dur="2.8s" repeatCount="indefinite"/></path>
+      <path d="M383 64L397 73L411 64L406 74L397 80L388 74Z" fill="#ff7286"/>
+      <path d="M376 83L381 87L382 105L377 101M418 82L413 86L412 104L417 100" fill="none" stroke="#55c3d3" stroke-width="1.2"/>
+      <path d="M382 117L390 123M412 117L405 123" stroke="#75dfeb" stroke-width="1"/>
+    </g>
+    <circle r="2.8" fill="#b9fdff"><animateMotion path="M341 114C313 92 352 52 399 63S477 92 451 113S379 143 341 114Z" dur="5.2s" repeatCount="indefinite"/></circle>
+    <circle r="6" fill="#5be5f2" opacity=".28" filter="url(#soft-glow)"><animateMotion path="M341 114C313 92 352 52 399 63S477 92 451 113S379 143 341 114Z" dur="5.2s" repeatCount="indefinite"/></circle>
+    <circle cx="438" cy="65" r="3" fill="#ff889a"/>
+    <circle cx="438" cy="65" r="3" fill="none" stroke="#ff889a"><animate attributeName="r" values="3;10" dur="3.2s" repeatCount="indefinite"/><animate attributeName="opacity" values=".7;0" dur="3.2s" repeatCount="indefinite"/></circle>
   </g>
-  <g transform="translate(405 85)" fill="none" stroke="#22d3ee">
-    <circle r="43" opacity=".45"/>
-    <circle r="29" opacity=".25"/>
-    <circle r="15" opacity=".25"/>
-    <path d="M-49 0H49M0-49V49" opacity=".25"/>
-    <g><path d="M0 0L0-42A42 42 0 0 1 30-30Z" fill="#22d3ee" fill-opacity=".14" stroke="none"/><path d="M0 0V-42" stroke-width="2"/><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="6s" repeatCount="indefinite"/></g>
-    <path d="M-29 15L-14 2L1 12L18-16L30-8" stroke="#a3e635" stroke-width="2" stroke-linejoin="round"/>
-    <g fill="#a3e635" stroke="none"><circle cx="-14" cy="2" r="3"/><circle cx="18" cy="-16" r="3"><animate attributeName="r" values="3;4.5;3" dur="3s" repeatCount="indefinite"/></circle></g>
-  </g>
+  <rect x=".5" y=".5" width="479" height="184" rx="16" fill="none" stroke="#2f6c7b" stroke-opacity=".85"/>
 </svg>
