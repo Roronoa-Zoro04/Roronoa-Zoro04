@@ -15,38 +15,10 @@
 
 <img src="foodie.svg" width="100%" alt="Animated Foodie project card. Public upload coming soon." />
 
-<h3>🍽️ Foodie</h3>
-<p><strong>Full-Stack Restaurant Management System</strong></p>
-
-<ul>
-  <li>Menu browsing, shopping carts, ordering, and delivery tracking.</li>
-  <li>JWT authentication, email/SMS OTP verification, and role-based access.</li>
-  <li>Admin dashboards for dishes, users, customer reviews, and sales analytics.</li>
-  <li>AI-generated dish descriptions and taglines, image discovery, and USD/CFA currency support.</li>
-</ul>
-
-<p><strong>Stack</strong><br />HTML · CSS · JavaScript · Node.js · Express.js · MongoDB · JWT · OpenAI/OpenRouter APIs</p>
-<p><strong>⏳ Public upload coming soon</strong></p>
-<!-- Add Foodie's verified repository and demo links after the project is uploaded. -->
-
 </td>
 <td width="50%" valign="top">
 
 <img src="spikesight.svg" width="100%" alt="Animated SpikeSight AI project card. Public upload coming soon." />
-
-<h3>🎯 SpikeSight AI</h3>
-<p><strong>VALORANT Match Prediction &amp; Analytics Platform</strong></p>
-
-<ul>
-  <li>Match prediction models using Elo ratings and regularized logistic regression.</li>
-  <li>Chronological data pipelines with timestamp validation and point-in-time features.</li>
-  <li>REST APIs for forecasts, team rankings, map analysis, and event brackets.</li>
-  <li>Interactive dashboards for matchups, team profiles, and model performance.</li>
-</ul>
-
-<p><strong>Stack</strong><br />Python · FastAPI · Next.js · React · TypeScript · SQLite</p>
-<p><strong>⏳ Public upload coming soon</strong></p>
-<!-- Add SpikeSight AI's verified repository and demo links after the project is uploaded. -->
 
 </td>
 </tr>
