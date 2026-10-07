@@ -104,16 +104,20 @@ const developer = {
 </tr>
 </table>
 
+---
 
-<details>
-<summary>📊 GitHub activity</summary>
+## 📊 My GitHub Stats
 
 <p align="center">
   <a href="https://github.com/Roronoa-Zoro04#contributions">
-    <img src="https://streak-stats.demolab.com/?user=Roronoa-Zoro04&amp;background=0D1117&amp;border=30363D&amp;stroke=30363D&amp;ring=A3E635&amp;fire=22D3EE&amp;currStreakNum=E6EDF3&amp;sideNums=E6EDF3&amp;currStreakLabel=A3E635&amp;sideLabels=22D3EE&amp;dates=9DA7B3&amp;border_radius=12" width="600" alt="Contribution total and streak history for Roronoa-Zoro04" />
+    <img src="https://streak-stats.demolab.com/?user=Roronoa-Zoro04&amp;timezone=Asia%2FKolkata&amp;background=0D1117&amp;border=E6EDF3&amp;stroke=E6EDF3&amp;ring=006BFF&amp;fire=006BFF&amp;currStreakNum=0077B5&amp;sideNums=006BFF&amp;currStreakLabel=0077B5&amp;sideLabels=006BFF&amp;dates=438494&amp;border_radius=6" width="600" alt="GitHub total contributions, current streak, and longest streak for Roronoa-Zoro04" />
   </a>
 </p>
 
-</details>
+<br />
 
-<p align="center"><sub>Thanks for visiting. More projects are on the way. ⚔️</sub></p>
+---
+
+<p align="center">
+  <img src="footer.svg" width="100%" alt="Thanks For Visiting — animated blue waves" />
+</p>
