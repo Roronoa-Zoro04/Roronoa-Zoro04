@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="200" viewBox="0 0 1100 200" role="img" aria-labelledby="title desc">
+  <title id="title">Thanks For Visiting</title>
+  <desc id="desc">A white farewell above gently moving blue and cyan waves.</desc>
+  <defs>
+    <linearGradient id="wave-gradient" x1="0" x2="1">
+      <stop stop-color="#0759c4"/>
+      <stop offset="1" stop-color="#0091b5"/>
+    </linearGradient>
+  </defs>
+  <path fill="#0c4e96" opacity=".86" d="M0 112C250 172 380 98 550 126S890 91 1100 130V200H0Z">
+    <animate attributeName="d" values="M0 112C250 172 380 98 550 126S890 91 1100 130V200H0Z;M0 136C250 98 380 154 550 116S890 150 1100 108V200H0Z;M0 112C250 172 380 98 550 126S890 91 1100 130V200H0Z" dur="11s" repeatCount="indefinite"/>
+  </path>
+  <path fill="#006eaa" opacity=".75" d="M0 153C220 122 370 133 550 136S880 110 1100 121V200H0Z">
+    <animate attributeName="d" values="M0 153C220 122 370 133 550 136S880 110 1100 121V200H0Z;M0 124C220 162 370 115 550 128S880 158 1100 141V200H0Z;M0 153C220 122 370 133 550 136S880 110 1100 121V200H0Z" dur="9s" repeatCount="indefinite"/>
+  </path>
+  <path fill="url(#wave-gradient)" opacity=".91" d="M0 152C220 124 390 130 550 134S870 109 1100 148V200H0Z">
+    <animate attributeName="d" values="M0 152C220 124 390 130 550 134S870 109 1100 148V200H0Z;M0 137C220 152 390 115 550 144S870 134 1100 126V200H0Z;M0 152C220 124 390 130 550 134S870 109 1100 148V200H0Z" dur="13s" repeatCount="indefinite"/>
+  </path>
+  <text x="550" y="145" fill="#f5f5f5" font-family="Segoe UI,Arial,sans-serif" font-size="64" font-weight="700" text-anchor="middle">Thanks For Visiting</text>
+</svg>
