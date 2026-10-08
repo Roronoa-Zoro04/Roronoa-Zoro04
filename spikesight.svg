@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="480" height="185" viewBox="0 0 480 185" role="img" aria-labelledby="title desc">
   <title id="title">SpikeSight AI — VALORANT analytics</title>
-  <desc id="desc">A tactical analytics card with a faceted prediction core, moving data signals, an orbiting cyan light, and a pulsing holographic platform. Public upload coming soon.</desc>
+  <desc id="desc">A tactical analytics card with a faceted prediction core, moving data signals, an orbiting cyan light, and a pulsing holographic platform. Private interview preview. Login required.</desc>
   <defs>
     <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#09131e"/><stop offset="1" stop-color="#102936"/></linearGradient>
     <radialGradient id="ambient"><stop stop-color="#23d8ef" stop-opacity=".16"/><stop offset="1" stop-color="#23d8ef" stop-opacity="0"/></radialGradient>
@@ -23,7 +23,7 @@
       <text x="24" y="109" fill="#b6d5df" font-size="14">VALORANT match intelligence.</text>
       <rect x="24" y="137" width="211" height="25" rx="12.5" fill="#11313e" stroke="#338094" stroke-opacity=".8"/>
       <circle cx="37" cy="149.5" r="3" fill="#72eef5"><animate attributeName="opacity" values="1;.4;1" dur="3s" repeatCount="indefinite"/></circle>
-      <text x="48" y="153" fill="#a0f3f7" font-size="9" font-weight="700" letter-spacing=".75">PUBLIC UPLOAD COMING SOON</text>
+      <text x="48" y="153" fill="#a0f3f7" font-size="9" font-weight="700" letter-spacing=".75">PRIVATE INTERVIEW PREVIEW</text>
     </g>
     <path d="M337 127L354 112L364 124L386 116M420 80L438 65L449 73" fill="none" stroke="#3ecfe2" stroke-width="1.1" stroke-opacity=".25"/>
     <path d="M337 127L354 112L364 124L386 116M420 80L438 65L449 73" fill="none" stroke="#89f7ff" stroke-width="1.5" stroke-dasharray="10 38" stroke-linecap="round"><animate attributeName="stroke-dashoffset" from="96" to="0" dur="3s" repeatCount="indefinite"/></path>
