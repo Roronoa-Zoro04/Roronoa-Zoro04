@@ -99,7 +99,8 @@ const developer = {
 </td>
 <td width="50%" valign="top">
 
-<img src="spikesight.svg" width="100%" alt="Animated SpikeSight AI project card. Public upload coming soon." />
+<a href="https://spikesight-ai.vercel.app/login"><img src="spikesight.svg?v=live-20261008" width="100%" alt="Animated SpikeSight AI project card. Open the private interview preview." /></a>
+<p><a href="https://spikesight-ai.vercel.app/login">Explore SpikeSight AI ↗</a><br /><sub>Private interview preview · Login required</sub></p>
 
 </td>
 </tr>
