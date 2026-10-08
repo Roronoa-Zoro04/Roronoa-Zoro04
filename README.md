@@ -93,7 +93,8 @@ const developer = {
 <tr>
 <td width="50%" valign="top">
 
-<img src="foodie.svg" width="100%" alt="Animated Foodie project card. Public upload coming soon." />
+<a href="https://foodie-bdd7.onrender.com/"><img src="foodie.svg" width="100%" alt="Animated Foodie project card. Explore the live website." /></a>
+<p><a href="https://foodie-bdd7.onrender.com/">Explore Foodie ↗</a></p>
 
 </td>
 <td width="50%" valign="top">
